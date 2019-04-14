@@ -1,0 +1,62 @@
+#portfolioSection{
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 40px; 
+    background: #FFBC73;
+}
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -15px;    
+    
+}
+.portfolio_card{
+    box-sizing: border-box;
+    width: calc(33% - 30px);
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    background: #61B4CF;
+    border-radius: 20px;
+    color: #f1f1f1;
+    transition: background-color .3s;
+    h2{
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+        font-size: 1.75em;
+        transition: color .3s;
+    }
+    &:hover{
+        background: #fff;
+    }
+    &:hover h2{
+        color: #61B4CF;
+    }
+    &:hover .frame{
+        border-color: #61B4CF;
+    }    
+}
+
+.frame{
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: border-color .3s;    
+}
+
+.imageHolder{
+    position: relative;		
+    overflow: hidden;		
+    width: 100%;		
+    height: 170px;        							
+    img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 170px;    
+        object-fit: cover;    		
+    }    						
+}

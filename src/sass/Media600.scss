@@ -1,0 +1,26 @@
+@media screen and (max-width: 900px){
+    .portfolio_card{
+        width: calc(50% - 30px);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .portfolio{
+        justify-content: center;
+    }
+    .portfolio_card{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .logo a{
+        width: 50px;
+        line-height: 50px;
+        font-size: 50px;
+    }
+    .navigation{
+        font-size: .75em;
+        margin-top: 45px;
+    }
+}
