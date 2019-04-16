@@ -6,13 +6,15 @@
   .portfolio {
     justify-content: center; }
   .portfolio_card {
-    width: 80%; } }
-
-@media screen and (max-width: 500px) {
-  .logo a {
-    width: 50px;
-    line-height: 50px;
-    font-size: 50px; }
+    width: 80%; }
+  .logo {
+    float: none;
+    margin: 0; }
   .navigation {
-    font-size: .75em;
-    margin-top: 45px; } }
+    float: none;
+    margin: 0;
+    padding-bottom: 20px; }
+  .footer {
+    text-align: center; }
+    .footer span {
+      float: none; } }

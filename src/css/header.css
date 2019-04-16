@@ -1,26 +1,23 @@
 header {
-  background: #3F92D2;
+  background: linear-gradient(10deg, #22175D, #7B72D8);
   padding: 0 20px;
-  border-radius: 40px; }
+  border-radius: 3px; }
 
 .logo {
   float: left;
   margin: 20px 0;
-  padding: 10px;
-  background: #024C68;
-  border-radius: 50%; }
+  padding: 10px; }
   .logo a {
-    font-family: 'Dancing Script', cursive;
     text-align: center;
     color: #fff;
-    width: 75px;
-    line-height: 75px;
-    font-size: 75px;
+    line-height: 55px;
+    font-size: 40px;
     display: block; }
 
 .navigation {
   float: right;
-  margin-top: 60px; }
+  margin-top: 65px;
+  text-align: center; }
   .navigation li {
     display: inline-block;
     font-size: 1.25em;
