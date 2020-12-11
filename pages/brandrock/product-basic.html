@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Petr Anikin">
+    <meta name="description" content="Template for portfolio">
+    <title>My Shopping Dream</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Tenor+Sans&display=swap&subset=cyrillic,latin-ext"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="body">
+    <div class="wrapper work-sans-font grey-color">
+
+        <header class="header">
+
+            <div id="navbar-top-wrapper" class="navbar-top-wrapper">
+                <div class="navbar-top container">
+
+                    <button id="menu-toggle" class="menu-toggle">
+                        <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                    </button>
+
+                    <div class="logotype">
+                        <a href="index.html"><img src="./img/main-page/Brandrock.png" alt="Brandrock"></a>
+                    </div>
+
+                    <div class="navigation">
+                        <button id="search-toggle">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+
+                        <button id="authorization-toggle">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </button>
+
+                        <button id="wishlist-toggle">
+                            <i class="fas fa-heart" aria-hidden="true"></i>
+                            <span class="count">2</span>
+                        </button>
+
+                        <button id="cart-toggle">
+                            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                            <span class="count">4</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="page-title-banner">
+                <div class="container">
+                    <h1>Товар</h1>
+
+                    <div class="breadcrumbs">
+                        <a href="./index.html">Главная</a>
+                        <a href="#">товар</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+
+        <main>
+            <section>
+                <div class="product-basic container">
+                    <div class="product-basic-slider-block">
+                        <div class="slider1"></div>
+                        <div class="slider2"></div>
+                    </div>
+
+                    <div class="product-basic-parametres-block">
+
+                        <div class="navigaion-arrows">
+                            <a href="#" class="left-arrow"><i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i></a>
+                            <a href="#" class="right-arrow"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a>
+                        </div>
+
+                        <div class="product-rating-row">
+                            <span class="product-rating">
+                                <i class="active fa fa-star"></i>
+                                <i class="active fa fa-star"></i>
+                                <i class="active fa fa-star"></i>
+                                <i class="active fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <span class="review-link"><a href="#">(3 отзыва)</a></span>
+                        </div>
+
+                        <h2>Шорты</h2>
+
+                        <div class="product-basic-parametres">
+                            <div class="product-size">
+                                <h3>Размер: </h3>
+
+                                <div class="product-size-labels">
+                                    <label for="size-1">S</label>
+                                    <label for="size-2">M</label>
+                                    <label for="size-3">L</label>
+                                    <label for="size-4">XS</label>
+                                </div>
+
+                                <div class="size-radio-buttons">
+                                    <input type="radio" id="size-1" value="1">
+                                    <input type="radio" id="size-2" value="2">
+                                    <input type="radio" id="size-3" value="3">
+                                    <input type="radio" id="size-4" value="4">
+                                </div>
+                            </div>
+
+                            <div class="product-color">
+                                <h3>Цвет: </h3>
+
+                                <div class="product-color-labels">
+                                    <label class="black" for="color-1"></label>
+                                    <label class="blue" for="color-2"></label>
+                                    <label class="yellow" for="color-3"></label>
+                                </div>
+
+                                <div class="color-radio-buttons">
+                                    <input type="radio" id="color-1" value="1">
+                                    <input type="radio" id="color-2" value="2">
+                                    <input type="radio" id="color-3" value="3">
+                                </div>
+                            </div>
+
+                            <div class="product-amount">
+                                <h3>Количество: </h3>
+
+                                <div class="product-counter">
+                                    <span id="pbc-minus">-</span>
+                                    <input id="product-basic-counter" type="text" value="1">
+                                    <span id="pbc-plus">+</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-basic-price">
+                            <span class="discounted-price">1800</span>
+                            <span class="main-price">1600</span>
+                        </div>
+
+                        <button class="red-button" type="button">добавить в корзину</button>
+
+                        <div class="product-basic-info">
+                            <div class="product-basic-info-title-logo">
+                                <a href="#"><img src="./img/brands/emporio.png" alt=""></a>
+                            </div>
+
+                            <div class="product-basic-info-table">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="product-basic-info-title">Артикул</td>
+                                            <td class="product-basic-info-value">12345</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="product-basic-info-title">Категории</td>
+                                            <td class="product-basic-info-value"><a href="#">Модные вещи</a><a
+                                                    href="#">Мужская одежда</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="product-basic-info-title">Теги</td>
+                                            <td class="product-basic-info-value"><a href="#">Модные вещи</a><a
+                                                    href="#">Мужская одежда</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="product-basic-info-title">Поделись на</td>
+                                            <td class="product-basic-info-value">
+                                                <div class="product-basic-info-social-icons">
+                                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                                    <a href="#"><i class="fab fa-google-plus"></i></a>
+                                                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="additional-info container">
+                    <div class="additional-info-header">
+                        <a href="#">Описание</a>
+                        <a href="#">Дополнительная информация</a>
+                        <a href="#">Отзывы (3)</a>
+                    </div>
+
+                    <div class="additional-info-tabs">
+
+                        <div class="additional-info-tabs-description">
+                            <p>
+                                Шо́рты (англ. shorts от англ. short — «короткий») — разновидность укороченной одежды для
+                                ног. Шорты могут служить в качестве элемента спортивной одежды, пляжной одежды, одежды
+                                для отдыха, деталью униформы, а также частью национального костюма. На протяжении
+                                длительного времени шорты были атрибутом детской одежды. В настоящее время шорты
+                                являются деталью одежды для всех возрастных категорий.
+                            </p>
+                        </div>
+                        
+                        <div class="additional-info-tabs-add-descririon">
+                            <table class="add-description-table">
+                                <tbody>
+                                    <tr>
+                                        <th>Размер</th>
+                                        <td><span>L, M, S, XS</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Цвет</th>
+                                        <td><span>Black, Blue, Brown</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="additional-info-tabs-reviews">
+
+                            <h2>3 отзыва о товаре</h2>
+
+                            <div class="single-review">
+                                <div class="single-review-image">
+                                    <img src="./img/user/user1.jpeg" alt="">
+                                </div>
+
+                                <div class="single-review-content">
+                                    <div class="product-rating">
+                                        <i class="active fa fa-star"></i>
+                                        <i class="active fa fa-star"></i>
+                                        <i class="active fa fa-star"></i>
+                                        <i class="active fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+
+                                    <div class="user-name">
+                                        Scott James 
+                                        <span class="date">April 5, 2018</span>
+                                    </div>
+
+                                    <div class="message">
+                                        <p>
+                                            Очень удобные шорты и хороший магазин.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="single-review">
+                                <div class="single-review-image">
+                                    <img src="./img/user/user2.jpeg" alt="">
+                                </div>
+
+                                <div class="single-review-content">
+                                    <div class="product-rating">
+                                        <i class="active fa fa-star"></i>
+                                        <i class="active fa fa-star"></i>
+                                        <i class="active fa fa-star"></i>
+                                        <i class="active fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+
+                                    <div class="user-name">
+                                        Owen Christ 
+                                        <span class="date">April 7, 2018</span>
+                                    </div>
+
+                                    <div class="message">
+                                        <p>
+                                            Покупала своему парню, шорты красивые, мы расстались.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="single-review">
+                                <div class="single-review-image">
+                                    <img src="./img/user/user3.jpeg" alt="">
+                                </div>
+
+                                <div class="single-review-content">
+                                    <div class="product-rating">
+                                        <i class="active fa fa-star"></i>
+                                        <i class="active fa fa-star"></i>
+                                        <i class="active fa fa-star"></i>
+                                        <i class="active fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+
+                                    <div class="user-name">
+                                        Edna Watson
+                                        <span class="date">April 8, 2018</span>
+                                    </div>
+
+                                    <div class="message">
+                                        <p>
+                                            Фасон мне нравиться, но стирать и гладить не удобно.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="add-review-form">
+                                <h2>добавить отзыв</h2>
+    
+                                <p>Ваш email никто не увидит. Обязательный к заполнению поля помечены *</p>
+    
+                                <form action="">
+                                    <div class="inputs-row">
+                                        <input type="text" placeholder="Имя *">
+                                        <input type="text" placeholder="Email *">
+                                    </div>
+    
+                                    <div class="add-rating">
+                                        <span class="add-rating-title">ваш рейтинг</span>
+                                        <span class="add-rating-icons">
+                                            <i class="active fa fa-star"></i>
+                                            <i class="active fa fa-star"></i>
+                                            <i class="active fa fa-star"></i>
+                                            <i class="active fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </span>
+                                    </div>
+    
+                                    <textarea cols="30" rows="10" placeholder="Ваш отзыв *"></textarea>
+    
+                                    <button class="red-button" type="submit">отправить</button>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-container container">
+                <div class="footer-block">
+                    <h3>о нас</h3>
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Адрес магазина</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Доставка</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-block">
+                    <h3>полезные ссылки</h3>
+                    <ul>
+                        <li><a href="#">Вернуться</a></li>
+                        <li><a href="#">Поддержка</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-block">
+                    <h3>мы в соц. сетях</h3>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i>Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i>Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i>Instagram</a></li>
+                        <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i>Youtube</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="subscribe footer-block">
+                    <h3>подписывайтесь</h3>
+                    <p>
+                        Подписывайтесь на нашу новостную рассылку, чтобы всегда быть в курсе новых товаров.
+                    </p>
+
+                    <form action="">
+                        <input type="text" value="Ваш email">
+                        <button type="submit"><i class="fas fa-arrow-right" aria-hidden="true"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>© 2019 My shopping dream.
+                    All Rights Reserved</p>
+            </div>
+        </footer>
+
+
+        <div id="menu-modal-wrapper" class="menu-modal-wrapper">
+            <div id="menu-overlay" class="menu-overlay"></div>
+            <div id="menu-content-container" class="menu-content-container">
+                <div class="modal-menu-logo">
+                    <a href="#"><img src="./img/main-page/Brandrock-white.png" alt=""></a>
+                </div>
+
+                <div class="menu-navigation">
+                    <div class="menu-categories-block">
+                        <ul class="main-categories">
+                            <li><a href="#">Женская одежда</a>
+                                <ul class="second-menu">
+                                    <li><a href="#">Нижнее белье</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>                                            
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Чулки / носки</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>                                            
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Домашняя одежда</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Пляжная одежда</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Футболки / майки</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Обувь</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Аксессуары</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>                            
+                                </ul>
+                            </li>
+                            <li><a href="#">Мужская одежда</a>
+                                <ul class="second-menu">
+                                    <li><a href="#">Нижнее белье</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Носки</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Домашняя одежда</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Пляжная одежда</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Футболки / майки</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Обувь</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Аксессуары</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>                            
+                                </ul>
+                            </li>
+                            <li><a href="#">Аксессуары</a>
+                                <ul class="second-menu">
+                                    <li><a href="#">Нижнее белье</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Носки</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Домашняя одежда</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Пляжная одежда</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Футболки / майки</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>                          
+                                </ul>
+                            </li>
+                            <li><a href="#">Распродажа</a>
+                                <ul class="second-menu">
+                                    <li><a href="#">Нижнее белье</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>                                    
+                                    <li><a href="#">Домашняя одежда</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Пляжная одежда</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Футболки / майки</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Обувь</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Аксессуары</a>
+                                        <ul class="third-menu">
+                                            <li><a href="#">Пункт 1</a></li>
+                                            <li><a href="#">Пункт 2</a></li>
+                                            <li><a href="#">Пункт 3</a></li>
+                                            <li><a href="#">Пункт 4</a></li>
+                                            <li><a href="#">Пункт 5</a></li>
+                                        </ul>
+                                    </li>                            
+                                </ul>
+                            </li>
+                        </ul>
+                                          
+                    </div>
+
+                    <div class="menu-contacts-block">                    
+                        <a href="#">О нас</a>
+                        <a href="#">Контакты</a>
+                        <a href="#">Условия доставки</a>
+                        <a href="#">Поддержка</a>
+                    </div>
+                    
+                    
+                </div>
+
+                <div class="about-contacts-block">
+                    <a href="#" class="about-email">example@gmail.com</a>
+                    <span class="phone">(+7) 123 567 9090</span>
+                    <div class="menu-social-icons">
+                        <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a>                          
+                    </div>
+                </div>
+
+                <button id="menu-close-button" class="menu-close-button">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="cart-modal-wrapper" class="cart-modal-wrapper">
+            <div id="cart-overlay" class="cart-overlay"></div>
+
+            <div id="cart-content-container" class="cart-content-container">
+                <h2>Корзина</h2>
+
+                <div class="cart-product-container">
+                    <div class="cart-product-item clearfix">
+                        <span class="cart-product-item-close-button"><i class="fa fa-times"
+                                aria-hidden="true"></i></span>
+                        <a href="#"><img src="./img/cart-product-image/01.jpg" alt=""></a>
+
+                        <div class="cart-product-item-info">
+                            <h5>Тёмно-коричневые часы</h5>
+                            <p>
+                                <span class="cart-product-quantity">2 x </span>
+                                <span class="discounted-price">1800</span>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="cart-subtotal">
+                    <span>Итог: </span>
+                    <span class="discounted-price">3600</span>
+                </div>
+
+                <div class="cart-buttons">
+                    <a href="#">перейти в корзину</a>
+                    <a href="#">оплатить</a>
+                </div>
+
+                <button id="cart-close-button" class="cart-close-button">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+
+
+
+
+        </div>
+
+        <div id="wishlist-modal-wrapper" class="wishlist-modal-wrapper">
+            <div id="wishlist-overlay" class="wishlist-overlay"></div>
+
+            <div id="wishlist-content-container" class="wishlist-content-container">
+                <h2>Избранное</h2>
+
+                <div class="wishlist-product-container">
+                    <div class="wishlist-product-item clearfix">
+                        <span class="wishlist-product-item-close-button"><i class="fa fa-times"
+                                aria-hidden="true"></i></span>
+                        <a href="#"><img src="./img/cart-product-image/01.jpg" alt=""></a>
+
+                        <div class="wishlist-product-item-info">
+                            <h5>Тёмно-коричневые часы</h5>
+                            <p>
+                                <span class="main-price">2000</span>
+                                <span class="discounted-price">1800</span>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="wishlist-buttons">
+                    <a href="#">избранное</a>
+
+                </div>
+
+                <button id="wishlist-close-button" class="wishlist-close-button">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+
+            </div>
+        </div>
+
+        <div id="search-modal" class="search-modal">
+            <button id="search-modal-close-button" class="seacrh-modal-close-button">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+
+            <div class="search-modal-input">
+                <form action="">
+                    <input type="text" placeholder="Поиск...">
+                </form>
+                <span class="search-hint"># Нажмите enter для поиска или ESC, чтобы закрыть</span>
+            </div>
+        </div>
+
+        <div id="authorization-modal-wrapper" class="authorization-modal-wrapper">
+            <div id="authorization-overlay" class="authorization-overlay"></div>
+            <form action="" id="authorization-form" class="authorization-form">
+                <div class="authorization-title">
+                    <h2>Вход</h2>
+                    <span>Рады видеть вас снова!</span>
+                </div>
+
+                <div class="authorization-inputs">
+                    <input type="text" placeholder="Никнейм или email адрес">
+                    <input type="text" placeholder="Пароль">
+                    <button type="submit">вход</button>
+                </div>
+
+                <div class="authorization-additionally">
+                    <label for="remember-user"><input id="remember-user" type="checkbox"> Запомнить</label>
+                    <a href="#">Забыли пароль?</a>
+                    <a href="#" id="registration-toggle">Регистрация</a>
+                </div>
+            </form>
+        </div>
+
+        <div id="registration-modal-wrapper" class="registration-modal-wrapper">
+            <div id="registration-overlay" class="registration-overlay"></div>
+            <form action="" id="registration-form" class="registration-form">
+                <div class="registration-title">
+                    <h2>Регистрация</h2>
+                    <span>Если у вас нет аккаунта - зарегистрируйтесь!</span>
+                </div>
+
+                <div class="registration-inputs">
+                    <div class="registration-email">
+                        <label for="">Email <span>*</span></label>
+                        <input type="text">
+                    </div>
+
+                    <div class="registration-password">
+                        <label for="">Пароль <span>*</span></label>
+                        <input type="text">
+                    </div>
+                    <button type="submit">зарегистрироваться</button>
+                </div>
+            </form>
+        </div>
+
+        <button class="scroll-top-button">
+            <i class="fas fa-long-arrow-alt-up"></i>
+        </button>
+
+    </div>
+
+
+</body>
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/owl.carousel.min.js"></script>
+<script src="./js/fixed-navbar.js"></script>
+<script src="./js/modals.js"></script>
+<script src="./js/brands-slider.js"></script>
+<script src="./js/faq-page.js"></script>
+<script src="./js/filter-toggle.js"></script>
+<script src="./js/goods-filter-expand-icon.js"></script>
+<script src="./js/product-counter.js"></script>
+
+</html>
