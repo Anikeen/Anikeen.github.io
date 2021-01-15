@@ -55,6 +55,7 @@ export default {
 .contacts {
   display: flex;
   align-items: flex-start;
+  margin: 60px;
 }
 .users-list {
   text-align: right;

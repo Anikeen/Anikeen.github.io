@@ -23,7 +23,6 @@ export default {
 
 <style>
 .users-table__header {
-  border-bottom: 1px solid #666;
   cursor: pointer;
 }
 </style>

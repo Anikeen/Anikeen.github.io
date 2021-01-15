@@ -52,18 +52,15 @@ export default {
   width: 100%;
   margin-top: 20px;
   text-align: left;
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
 }
 .users-table__body {
   display: flex;
   flex-direction: column;
 }
 .users-table__row {
+  flex-basis: 100%;
   display: flex;
   justify-content: flex-end;
-  flex-basis: content;
-  border-bottom: 1px solid #666;
 }
 .users-table__row:last-child {
   border-bottom: none;
@@ -72,8 +69,7 @@ export default {
   flex-basis: 50%;
   padding: 20px;
   font-weight: normal;
-  border-right: 1px solid #666;
-  border-left: 1px solid #666;
+  border: 1px solid #666;
 }
 .subcell {
   flex-basis: 40%;
