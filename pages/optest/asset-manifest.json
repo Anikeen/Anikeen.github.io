@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.94fd54a1.css",
-    "main.js": "./static/js/main.bd6d1a28.js",
+    "main.js": "./static/js/main.55b37c17.js",
     "static/media/bg.png": "./static/media/bg.9b95402d2c5c69f8e17d.png",
     "static/media/bottle.png": "./static/media/bottle.0a23a3f05774b21d0754.png",
     "static/media/Circe-ExtraLight.eot": "./static/media/Circe-ExtraLight.0f3ca43ce4ca34c99c00.eot",
@@ -156,10 +156,10 @@
     "static/media/spore_4.png": "./static/media/spore_4.747d891779eea9f816b8.png",
     "index.html": "./index.html",
     "main.94fd54a1.css.map": "./static/css/main.94fd54a1.css.map",
-    "main.bd6d1a28.js.map": "./static/js/main.bd6d1a28.js.map"
+    "main.55b37c17.js.map": "./static/js/main.55b37c17.js.map"
   },
   "entrypoints": [
     "static/css/main.94fd54a1.css",
-    "static/js/main.bd6d1a28.js"
+    "static/js/main.55b37c17.js"
   ]
 }
